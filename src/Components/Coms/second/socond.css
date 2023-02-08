@@ -1,0 +1,10 @@
+.C_content {
+    width: 40%;
+    height: 90%;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

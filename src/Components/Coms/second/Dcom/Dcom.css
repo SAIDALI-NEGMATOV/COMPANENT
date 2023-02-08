@@ -1,0 +1,26 @@
+.Dcom{
+    width: 230px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius:30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;
+}
+
+.Dcom .Com_d button {
+    padding: 10px 20px;
+    border: 0.5px solid #000;
+    
+}
+.Dcom .Com_d button:nth-child(1) {
+    padding: 10px 20px;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+.Dcom .Com_d button:nth-child(2) {
+    padding: 10px 20px;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}

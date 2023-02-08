@@ -1,0 +1,26 @@
+.Ccom{
+    width: 230px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius:30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.Ccom .Com_c button {
+    padding: 10px 20px;
+    border: 0.5px solid #000;
+    
+}
+.Ccom .Com_c button:nth-child(1) {
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.Ccom .Com_c button:nth-child(2) {
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
